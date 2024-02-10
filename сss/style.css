@@ -1,0 +1,115 @@
+/* Застосовується до всіх посилань у документі 
+a {
+    color: yellow;
+}
+
+Застосовується до посилань, які лежать усередині неупорядкованих списків 
+ul a {
+    color: tomato;
+}
+
+Застосовується лише до посилань, що лежать усередині тега з класом social-links 
+.social-links a {
+    color: green;
+}
+
+.menu > li {
+    border: 1px solid tomato;
+}
+
+.link {
+    color: teal;
+}
+
+.link:hover {
+    color: tomato; color: #18ffff 
+}
+
+.social-links .link {
+    color: teal;
+}
+
+.social-links .link:hover {
+    color: tomato;
+}
+
+.social-links .link:active {
+    color: red;
+}
+
+.social-links .link:focus {
+    color: orange;
+}
+
+.social-links .link:hover,
+.social-links .link:focus {
+    color: orange;*/
+
+
+
+.text>a {
+        text-decoration: line-through;
+    }
+
+    .link {
+        text-decoration: none;
+    }
+
+        .site-nav .link {
+            text-transform: uppercase;
+        }
+                .post-title {
+                    text-align: center;
+                }
+        
+                .align-right {
+                    text-align: right;
+                }
+        
+                .align-justify {
+                    text-align: justify;
+                }
+
+                                .text {
+                                    font-size: 16px;
+                                    line-height: 0,12;
+                                    text-indent: 30px;
+                                }
+
+       .post-title {
+     letter-spacing: 10px;
+    color: orangered;
+        text-shadow: 2px 24px 4px yellow;
+        }
+                                
+  .post-text {
+      letter-spacing: 5px;
+}
+*{
+    box-sizing: border-box;
+}
+
+.outer-box{
+    width: 400px;
+    height: 200px;
+    background-color: teal;
+    border: 3px solid red;
+}
+.inner-box{
+    border: 2px solid yellow;
+    width: 400px;
+    padding-top: 50px;
+    background-color: palevioletred;
+    height: 100px;
+}
+
+.pane {
+    display: none;
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 4px;
+}
+
+.pane.is-active {
+    display: block;
+}
